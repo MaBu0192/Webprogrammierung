@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS-Dokument für Schreinerei Meier, 
+   bitte im Verzeichnis /css speichern und mit src="css/formate.css" einbinden! 
+*/
+
+body {
+	max-width: 60em;
+	margin: 1em auto;
+	background-color: beige;
+}
+
+h1 {
+	font-size: 2.5em; 
+	font-family: cursive; 
+	background-color: orange; 
+	text-align: center;
+}
+
+h2 {
+	font-size: 2.2em; 
+	font-family: cursive; 
+	background-color: yellow; 
+	text-align: center;
+}
+
+p {
+	font-size: 1.3em;
+	text-align: justify;
+	font-family: sans-serif;
+	color: brown;
+}
+
+table, 
+	ul {
+	font-size: 1.3em;
+	}
+	ul ul{
+		font-size: inherit;
+	}
