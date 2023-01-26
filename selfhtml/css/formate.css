@@ -4,6 +4,8 @@
 */
 
 body {
+	display: grid;
+	grid-template-columns: auto auto auto ;
 	max-width: 60em;
 	margin: 1em auto;
 	background-color: beige;
