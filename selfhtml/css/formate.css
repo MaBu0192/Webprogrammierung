@@ -4,8 +4,6 @@
 */
 
 body {
-	/*display: grid;
-	grid-template-columns: auto auto auto ;*/
 	max-width: 60em;
 	margin: 1em auto;
 	background-color: beige;
@@ -39,3 +37,31 @@ table,
 	ul ul{
 		font-size: inherit;
 	}
+	
+#angebot {
+	background-color: firebrick;
+	margin: 1em 3em;
+	padding: 1em;
+	width: 10em;
+	text-align: center;
+}
+
+#angebot h3 {
+	font-size: 2em;
+	font-variant: small-caps;
+	color: lightyellow;
+}
+
+#angebot p {
+ color: white;
+}
+@media (min-width: 30em){
+	#leistungen {
+		display: grid;
+		grid-template-columns: 1fr 12em;
+	}
+
+	#leistungen h2 {
+		grid-column: 1 / -1;
+	}
+}
