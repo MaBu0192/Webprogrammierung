@@ -40,9 +40,9 @@ table,
 	
 #angebot {
 	background-color: firebrick;
-	margin: 1em 3em;
-	padding: 1em;
-	width: 10em;
+	margin: 1em 3em;	/* Legt den Außenrand UM die Box fest */
+	padding: 1em;		/* Legt den Innenrand IN der Box fest */
+	width: 10em;		/* Legt die Breite der Box fest */
 	text-align: center;
 }
 
@@ -58,7 +58,7 @@ table,
 @media (min-width: 30em){
 	#leistungen {
 		display: grid;
-		grid-template-columns: 1fr 12em;
+		grid-template-columns: 1fr 15.5em;
 	}
 
 	#leistungen h2 {
